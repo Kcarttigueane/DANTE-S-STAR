@@ -1,0 +1,9 @@
+*.o
+generator
+solver
+*.gcda
+*.gcno
+vg*
+map.txt
+junk
+result.txt
