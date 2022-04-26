@@ -60,8 +60,25 @@ You can choose the algorithm you want but be careful, you will be ask to solve p
 
 # Examples
 
+<div class="row">
+  <div class="column">
+      <br />
+      <p>PERFECT GENERATION :</p>
+      <img src="images/perfect.png" alt="perfect" width=25% height=25%>
+  </div>
+  <div class="column">
+      <br />
+      <p>IMPERFECT GENERATION :</p>
+    <img src="images/imperfect.png" alt="imperfect" width=25% height=25%>
+  </div>
+  <div class="column">
+      <br />
+      <p>SOLVER :</p>
+    <img src="images/solver.png" alt="solver" width=25% height=25%>
+  </div>
+</div>
 
-
+</body>
 
 # How To Use
 <br />
@@ -72,6 +89,6 @@ You can choose the algorithm you want but be careful, you will be ask to solve p
     -> x => column<br />
     -> y => row<br />
     -> As the perfect argument is optional, the default generation will be an imperfect maze.<br />
-* lauch solver : `./solver/solver [file.txt]`
+* launch solver : `./solver/solver [file.txt]`
 
 <p align="right">(<a href="#top">back to top</a>)</p>
