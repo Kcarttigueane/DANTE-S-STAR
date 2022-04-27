@@ -83,12 +83,29 @@ You can choose the algorithm you want but be careful, you will be ask to solve p
 # How To Use
 <br />
 
-* Git clone the repositery : 'git clone git@github.com:Kcarttigueane/Dante-s-star.git'
-* First build the project executing : `make`
-* Generate maze : `./generator/generator [x] [y] [perfect]`<br />
-    -> x => column<br />
-    -> y => row<br />
-    -> As the perfect argument is optional, the default generation will be an imperfect maze.<br />
-* launch solver : `./solver/solver [file.txt]`
+* Git clone the repositery : <br />
+```
+git clone git@github.com:Kcarttigueane/Dante-s-star.git
+```
+* First build the project executing : <br />
+```
+make
+```
+* Generate maze :<br />
+ ```
+ ./generator/generator [x] [y] [perfect]
+ ```
+ <br />
+ <div>
+    -> x => column <br />
+    -> y => row <br />
+    -> As the perfect argument is optional, the default generation will be an imperfect maze. <br />
+ </div>
+  <br />
+ 
+* Launch Solver : <br />
+```
+./solver/solver [file.txt]
+```
 
 <p align="right">(<a href="#top">back to top</a>)</p>
